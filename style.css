@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+* {
+  padding: 0rem;
+  margin: 0rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+  --body-background: #0e0e0e;
+  --color-logo: #ff5b50;
+  --card-color: #252525;
+  --text-color: #fff;
+  --subtitle-color: #5a5757;
+  --black-text: #000;
+  --color-input: #0D0D0D;
+}
