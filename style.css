@@ -18,6 +18,11 @@
 
 body {
   background-image: url(assets/background.png);
+  background-repeat: no-repeat;
+}
+
+main {
+  background-color: black;
 }
 
 /* Header */
@@ -196,7 +201,7 @@ button img {
   color: var(--text-color);
 }
 
-.numeros  {
+.numeros {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -224,15 +229,19 @@ button img {
   margin-left: 190px;
 }
 
+#section2 h2 {
+  margin-top: 155px;
+}
 /* Section3 */
 #section3 {
   display: grid;
+  grid-template-columns: 2fr 1fr;
   margin-top: 150px;
   width: 1265.9px;
   height: 937px;
 }
 
-#section3 h2 {
+#section2 h2 {
   margin-left: 87px;
   font-style: normal;
   font-weight: 700;
@@ -247,16 +256,19 @@ button img {
   font-weight: 500;
   font-size: 30px;
   line-height: 37px;
+  margin-bottom: 44px;
 
   color: var(--text-color);
 }
 
 #section3 p {
   display: flex;
-  font-style: normal;
+  flex-direction: row;
+  flex-wrap: wrap;
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
+  margin-bottom: 34px;
 
   color: var(--subtitle-color);
 }
@@ -265,10 +277,28 @@ button img {
   display: flex;
   flex-wrap: wrap;
   width: 376.9px;
+  margin-left: 87px;
   height: 337px;
 }
 
 .arrowWhite {
-  width: 50px;
-  height: 50px;
+  margin-left: 135px;
+  width: 20px;
+  height: 20px;
+}
+
+.name {
+  margin-left: 90px;
+}
+
+.name2 {
+  margin-left: 150px;
+}
+
+#linha-vertical {
+  position: absolute;
+  height: 815px;
+  border-right: 1px solid var(--subtitle-color);
+  left: 714px;
+  top: 1955px;
 }
