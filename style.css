@@ -17,11 +17,12 @@
 }
 
 body {
-  background-image: url(assets/background.png);
-  background-repeat: no-repeat;
+  background-color: black;
 }
 
 main {
+  background-image: url(assets/background.png);
+  background-repeat: no-repeat;
   background-color: black;
 }
 
@@ -164,7 +165,6 @@ button img {
 }
 
 /* Section 2 */
-
 #section2 #textos {
   display: flex;
   justify-content: center;
@@ -229,9 +229,6 @@ button img {
   margin-left: 190px;
 }
 
-#section2 h2 {
-  margin-top: 155px;
-}
 /* Section3 */
 #section3 {
   display: grid;
@@ -241,7 +238,8 @@ button img {
   height: 937px;
 }
 
-#section2 h2 {
+#populares {
+  margin-top: 155px;
   margin-left: 87px;
   font-style: normal;
   font-weight: 700;
@@ -301,4 +299,79 @@ button img {
   border-right: 1px solid var(--subtitle-color);
   left: 714px;
   top: 1955px;
+}
+
+/* SECTION 4 */
+#section4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  margin-top: 120px;
+  width: 1287px;
+  height: 682.34px;
+  color: var(--text-color);
+}
+
+.artistas {
+  margin-left: 456px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+
+  color: var(--text-color);
+}
+
+#section4 p {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 40px;
+}
+
+#artista {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 150px;
+  margin-left: 60px;
+  flex-wrap: wrap;
+  background-color: var(--card-color);
+}
+
+#artista .colorNFTs {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+#section4 .jake {
+  color: var(--text-color);
+  background: var(--color-logo);
+}
+
+.jake .colorNFTs {
+  color: var(--text-color);
+}
+
+main a {
+  display: flex;
+  color: var(--text-color);
+  margin-left: 45%;
+  width: 260.34px;
+  height: 41.34px;
+  text-decoration: none;
+}
+
+main a img {
+  margin-left: 13px;
+  width: 15px;
+  height: 15px;
 }
