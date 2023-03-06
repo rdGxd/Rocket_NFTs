@@ -53,7 +53,7 @@ header nav a{
   color: var(--text-color);
 }
 
-header button a {
+header button{
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -66,11 +66,11 @@ header button a {
   font-size: 1rem;
   line-height: 1.25rem;
   color: var(--black-text);
+  padding: 0.93rem;
+  cursor: pointer;
 }
 
-button a img {
-  width: 1.87rem;
-  height: 1.87rem;
+button img {
   margin-right: 0.93rem;
 }
 
@@ -459,7 +459,7 @@ input[type="email"] {
   background-color: var(--color-input);
   color: var(--text-color);
 }
-input[type="submit"] {
+footer button[type="submit"] {
   width: 7.62rem;
   height: 4.12rem;
   background-color: var(--text-color);
@@ -469,6 +469,7 @@ input[type="submit"] {
   line-height: 1.5rem;
   border: none;
   color: var(--black-text);
+  cursor: pointer;
 }
 
 .titleList {
