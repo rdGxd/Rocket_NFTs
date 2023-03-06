@@ -44,7 +44,8 @@ header h1 {
   color: var(--text-color);
 }
 
-header p {
+header nav a{
+  text-decoration: none;
   font-style: normal;
   font-weight: 400;
   font-size: 1.12rem;
@@ -52,7 +53,8 @@ header p {
   color: var(--text-color);
 }
 
-header button {
+header button a {
+  text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,7 +68,7 @@ header button {
   color: var(--black-text);
 }
 
-button img {
+button a img {
   width: 1.87rem;
   height: 1.87rem;
   margin-right: 0.93rem;
